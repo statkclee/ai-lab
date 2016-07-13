@@ -18,6 +18,11 @@ title: 인공지능 연구회
 * '16.08월: 데이터 과학
 * '16.09월: 병렬, 분산 컴퓨팅
 * '16.10월: 통계학/예측모형
+    * [모형이란 무엇인가?](http://statkclee.github.io/ml/ml-modeling-basic.html)
+    * [전통적인 모형 개발](http://statkclee.github.io/ml/ml-modeling-titanic.html)
+    * [모형 평가 (독일 신용평가)](http://statkclee.github.io/ml/ml-credit-scoring.html)
+    * [병렬 예측모형](http://statkclee.github.io/ml/ml-credit-greene.html)
+    * [분산 예측모형](http://statkclee.github.io/deep-learning/h2o-deep-learning-landingclub.html)
 * '16.11월: 기계학습/딥러닝
 * '16.12월: 라즈베리 파이 인공지능
 
