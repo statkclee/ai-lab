@@ -15,6 +15,12 @@ title: 인공지능 연구회
 ## 연구회 일정
 
 * '16.07월: 머신러닝과 제4차 산업혁명
+    * [4번째 패러다임](https://statkclee.github.io/xwMOOC/paradigm/)
+    * [머신러닝/딥러닝이 주목받는 이유](http://statkclee.github.io/deep-learning/why-dl.html)
+    * [구글과 바이두 딥러닝](http://statkclee.github.io/deep-learning/)
+    * [3가지 기계학습 원리](http://statkclee.github.io/ml/ml-three-principles.html)
+    * [파이썬기반 기계학습 툴체인(toolchain)](http://statkclee.github.io/ml/00-toolchain.html)
+    * [사업과 기계학습(통계)](http://statkclee.github.io/ml/01-problem.html)
 * '16.08월: 데이터 과학
 * '16.09월: 병렬, 분산 컴퓨팅
 * '16.10월: 통계학/예측모형
