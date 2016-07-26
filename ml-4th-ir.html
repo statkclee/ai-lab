@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="generator" content="pandoc">
+    <title>Software Carpentry: 머신러닝과 제4차 산업혁명</title>
+    <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="css/bootstrap/bootstrap.css" />
+    <link rel="stylesheet" type="text/css" href="css/bootstrap/bootstrap-theme.css" />
+    <link rel="stylesheet" type="text/css" href="css/swc.css" />
+    <link rel="alternate" type="application/rss+xml" title="Software Carpentry Blog" href="http://software-carpentry.org/feed.xml"/>
+    <meta charset="UTF-8" />
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="https://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    
+    
+    <!--
+    <div id="google_translate_element"></div><script type="text/javascript">
+    function googleTranslateElementInit() {
+      new google.translate.TranslateElement({pageLanguage: 'ko', includedLanguages: 'en', layout: google.translate.TranslateElement.InlineLayout.SIMPLE}, 'google_translate_element');
+    }
+    </script><script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+    -->
+  </head>
+  <body class="lesson">
+    <div class="container card">
+      <div class="banner">
+        <a href="http://software-carpentry.org" title="Software Carpentry">
+          <img alt="Software Carpentry banner" src="img/software-carpentry-banner.png" />
+        </a>
+      </div>
+      <article>
+      <div class="row">
+        <div class="col-md-10 col-md-offset-1">
+                    <h1 class="title">머신러닝과 제4차 산업혁명</h1>
+          <h3 id="산업구조">산업구조</h3>
+<p><a href="https://namu.wiki/w/%EB%8C%80%ED%95%99%EC%9E%85%ED%95%99%20%ED%95%99%EB%A0%A5%EA%B3%A0%EC%82%AC">나무위키, 대학입학 학력고사 역대 수석</a></p>
+<table>
+<thead>
+<tr class="header">
+<th>년도</th>
+<th>성명</th>
+<th>학과</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>1970</td>
+<td>임지순</td>
+<td>물리학과</td>
+</tr>
+<tr class="even">
+<td>1971</td>
+<td>오세정</td>
+<td>물리학과</td>
+</tr>
+<tr class="odd">
+<td>1972</td>
+<td>한태숙</td>
+<td>전자공학</td>
+</tr>
+<tr class="even">
+<td>1973</td>
+<td>허익렬</td>
+<td>법학대</td>
+</tr>
+<tr class="odd">
+<td>1974</td>
+<td>오내원</td>
+<td>경제학과</td>
+</tr>
+<tr class="even">
+<td>1975</td>
+<td>송기호</td>
+<td>국사학과</td>
+</tr>
+<tr class="odd">
+<td>1976</td>
+<td>임희권</td>
+<td>불문학과</td>
+</tr>
+<tr class="even">
+<td>1977</td>
+<td>신상훈</td>
+<td>의예과</td>
+</tr>
+<tr class="odd">
+<td>1978</td>
+<td>박석원</td>
+<td>전자공학</td>
+</tr>
+<tr class="even">
+<td>1979</td>
+<td>차국린</td>
+<td>물리학과</td>
+</tr>
+<tr class="odd">
+<td>1980</td>
+<td>김기영</td>
+<td>법대</td>
+</tr>
+<tr class="even">
+<td>1981</td>
+<td>한승미</td>
+<td>의류학과</td>
+</tr>
+<tr class="odd">
+<td>1982</td>
+<td>원희룡</td>
+<td>법학과</td>
+</tr>
+<tr class="even">
+<td>1983</td>
+<td>서영석</td>
+<td>물리학과</td>
+</tr>
+<tr class="odd">
+<td>1984</td>
+<td>송병호</td>
+<td>의예과</td>
+</tr>
+<tr class="even">
+<td>1985</td>
+<td>이미령</td>
+<td>물리학과</td>
+</tr>
+<tr class="odd">
+<td>1986</td>
+<td>이준걸</td>
+<td>물리학과</td>
+</tr>
+<tr class="even">
+<td>1987</td>
+<td>김영룡</td>
+<td>전자공학과</td>
+</tr>
+<tr class="odd">
+<td>1988</td>
+<td>이일완</td>
+<td>전자공학과</td>
+</tr>
+<tr class="even">
+<td>1989</td>
+<td>이종진</td>
+<td>화학공학과</td>
+</tr>
+<tr class="odd">
+<td>1990</td>
+<td>윤여환</td>
+<td>전자공학</td>
+</tr>
+<tr class="even">
+<td>1991</td>
+<td>한확</td>
+<td>컴퓨터공학과</td>
+</tr>
+<tr class="odd">
+<td>1992</td>
+<td>이학호</td>
+<td>물리학과</td>
+</tr>
+<tr class="even">
+<td>1993</td>
+<td>민세훈</td>
+<td>법학과</td>
+</tr>
+<tr class="odd">
+<td>1994</td>
+<td>배호필</td>
+<td>전기전자제어공학부</td>
+</tr>
+<tr class="even">
+<td>1995</td>
+<td>정성택</td>
+<td>전기공학과</td>
+</tr>
+<tr class="odd">
+<td>1996</td>
+<td>이정원</td>
+<td>전기공학과</td>
+</tr>
+<tr class="even">
+<td>1997</td>
+<td>서준호</td>
+<td>물리학과</td>
+</tr>
+<tr class="odd">
+<td>1998</td>
+<td>한상현</td>
+<td>산업공학</td>
+</tr>
+<tr class="even">
+<td>1999</td>
+<td>오승은</td>
+<td>물리학과</td>
+</tr>
+<tr class="odd">
+<td>2000</td>
+<td>박혜진</td>
+<td>법학과</td>
+</tr>
+<tr class="even">
+<td>2001</td>
+<td>수석65명</td>
+<td>…</td>
+</tr>
+<tr class="odd">
+<td>2002</td>
+<td>박기범</td>
+<td>의예과</td>
+</tr>
+<tr class="even">
+<td>2003</td>
+<td>윤재희</td>
+<td>경영학과</td>
+</tr>
+<tr class="odd">
+<td>2004</td>
+<td>채희돌</td>
+<td>의예과</td>
+</tr>
+</tbody>
+</table>
+<h3 id="it-산업생산-it-gdp">IT 산업생산 <a href="#fn1" class="footnoteRef" id="fnref1"><sup>1</sup></a></h3>
+<p>GDP 대비 IT산업생산비율(%) 30% 대를 차지하고 있다. IT산업생산에는 통신서비스, 방송서비스, ICT기기, SW, ICT융합</p>
+<table>
+<thead>
+<tr class="header">
+<th></th>
+<th>2006</th>
+<th>2007</th>
+<th>2008</th>
+<th>2009</th>
+<th>2010</th>
+<th>2011</th>
+<th>2012</th>
+<th>2013</th>
+<th>2014</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>GDP 점유율</td>
+<td>28.4</td>
+<td>27.7</td>
+<td>28.7</td>
+<td>29.4</td>
+<td>31.6</td>
+<td>30.7</td>
+<td>30.8</td>
+<td>30.9</td>
+<td>30.3</td>
+</tr>
+<tr class="even">
+<td>전체</td>
+<td>2,745.2</td>
+<td>2,890.4</td>
+<td>3,169.9</td>
+<td>3,385.6</td>
+<td>4,000.9</td>
+<td>4,097.0</td>
+<td>4,237.4</td>
+<td>4,410.2</td>
+<td>4,499.3</td>
+</tr>
+<tr class="odd">
+<td>통신서비스</td>
+<td>386.6</td>
+<td>405.1</td>
+<td>426.6</td>
+<td>436.0</td>
+<td>436.8</td>
+<td>438.8</td>
+<td>431.0</td>
+<td>443.6</td>
+<td>451.2</td>
+</tr>
+<tr class="even">
+<td>방송서비스</td>
+<td>90.0</td>
+<td>97.5</td>
+<td>92.9</td>
+<td>95.2</td>
+<td>107.4</td>
+<td>119.8</td>
+<td>132.4</td>
+<td>138.2</td>
+<td>141.8</td>
+</tr>
+<tr class="odd">
+<td>ICT 기기</td>
+<td>1,733.5</td>
+<td>1,829.5</td>
+<td>2,015.2</td>
+<td>2,219.7</td>
+<td>2,729.7</td>
+<td>2,736.7</td>
+<td>2,712.8</td>
+<td>2,798.4</td>
+<td>2,825.8</td>
+</tr>
+<tr class="even">
+<td>S/W</td>
+<td>210.6</td>
+<td>221.3</td>
+<td>261.7</td>
+<td>260.1</td>
+<td>272.3</td>
+<td>295.2</td>
+<td>322.4</td>
+<td>354.9</td>
+<td>375.2</td>
+</tr>
+<tr class="odd">
+<td>ICT융합서비스/기기</td>
+<td>324.5</td>
+<td>337.0</td>
+<td>373.5</td>
+<td>374.6</td>
+<td>454.8</td>
+<td>506.5</td>
+<td>541.5</td>
+<td>575.4</td>
+<td>597.0</td>
+</tr>
+</tbody>
+</table>
+<h3 id="참고문헌">참고문헌</h3>
+<ul>
+<li><a href="http://datausa.io/">Data USA</a></li>
+<li><a href="https://www.youtube.com/watch?v=jfjg0kGQFBY">Gang of Four: Apple / Amazon / Facebook / Google (Scott Galloway, Founder of L2) | DLD16</a></li>
+<li><a href="https://www.youtube.com/watch?v=XCvwCcEP74Q">The Four Horsemen: Amazon/Apple/Facebook &amp; Google - Who Wins/Loses (Scott Galloway, L2 Inc.) | DLD15</a></li>
+<li><a href="https://www.youtube.com/watch?v=MqNLaJkyIB0">Who is the Fifth Horseman?</a></li>
+</ul>
+<div class="footnotes">
+<hr />
+<ol>
+<li id="fn1"><p><a href="http://www.index.go.kr/potal/enaraIdx/idxField/userPageCh.do?idx_cd=2888">국가지표체계, IT산업생산비율</a><a href="#fnref1">↩</a></p></li>
+</ol>
+</div>
+        </div>
+      </div>
+      </article>
+      <div class="footer">
+        <a class="label swc-blue-bg" href="http://software-carpentry.org">Software Carpentry</a>
+        <a class="label swc-blue-bg" href="https://github.com/swcarpentry/lesson-template">Source</a>
+        <a class="label swc-blue-bg" href="mailto:admin@software-carpentry.org">Contact</a>
+        <a class="label swc-blue-bg" href="LICENSE.html">License</a>
+      </div>
+    </div>
+    <!-- Javascript placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src="css/bootstrap/bootstrap-js/bootstrap.js"></script>
+    <script src='https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML'></script>
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+    
+      ga('create', 'UA-37305346-2', 'auto');
+      ga('send', 'pageview');
+    
+    </script>
+  </body>
+</html>
