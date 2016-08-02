@@ -14,7 +14,7 @@ title: 인공지능 연구회
 
 ## 연구회 일정
 
-* '16.07월: 머신러닝과 제4차 산업혁명
+* '16.07월: [머신러닝과 제4차 산업혁명](ml-4th-ir.html)
     * [4번째 패러다임](https://statkclee.github.io/xwMOOC/paradigm/)
     * [머신러닝/딥러닝이 주목받는 이유](http://statkclee.github.io/deep-learning/why-dl.html)
     * [구글과 바이두 딥러닝](http://statkclee.github.io/deep-learning/)
