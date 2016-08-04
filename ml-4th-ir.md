@@ -96,6 +96,12 @@ title: 머신러닝과 제4차 산업혁명
 
 <img src="fig/ai-lab-data-science-devops.png" alt="데이터 과학 데브옵스" width="67%" />
 
+### 4. 데이터 과학 사용법
+
+
+
+<img src="fig/stat-data-science.png" alt="통계, 데이터 과학, 기계학습 비교" width="67%" />
+
 
 ### 참고문헌
 
