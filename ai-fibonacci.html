@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="generator" content="pandoc">
+    <title>Software Carpentry: 피보나치 수(Fibonacci Number)</title>
+    <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="css/bootstrap/bootstrap.css" />
+    <link rel="stylesheet" type="text/css" href="css/bootstrap/bootstrap-theme.css" />
+    <link rel="stylesheet" type="text/css" href="css/swc.css" />
+    <link rel="alternate" type="application/rss+xml" title="Software Carpentry Blog" href="http://software-carpentry.org/feed.xml"/>
+    <meta charset="UTF-8" />
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="https://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    
+    
+    <!--
+    <div id="google_translate_element"></div><script type="text/javascript">
+    function googleTranslateElementInit() {
+      new google.translate.TranslateElement({pageLanguage: 'ko', includedLanguages: 'en', layout: google.translate.TranslateElement.InlineLayout.SIMPLE}, 'google_translate_element');
+    }
+    </script><script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+    -->
+  </head>
+  <body class="lesson">
+    <div class="container card">
+      <div class="banner">
+        <a href="http://software-carpentry.org" title="Software Carpentry">
+          <img alt="Software Carpentry banner" src="img/software-carpentry-banner.png" />
+        </a>
+      </div>
+      <article>
+      <div class="row">
+        <div class="col-md-10 col-md-offset-1">
+                    <h1 class="title">피보나치 수(Fibonacci Number)</h1>
+          <section class="objectives panel panel-warning">
+<div class="panel-heading">
+<h2 id="학습-목표"><span class="glyphicon glyphicon-certificate"></span>학습 목표</h2>
+</div>
+<div class="panel-body">
+<ul>
+<li>피보나치 수를 통해 수학을 이해한다는 의미를 되새긴다.</li>
+<li>피보나치 수를 수치적, 대수적, 기하적, 실생활에 대해서 살펴본다.</li>
+<li>피보나치 수를 파이썬/R 코드로 코딩한다.</li>
+</ul>
+</div>
+</section>
+<h3 id="피보나치-수">1. 피보나치 수</h3>
+<p>레오나르도 피보나치(Leonardo Fibonacci, 1170년~1250년)는 일찍이 아버님을 따라 어린 나이에 북아프리카에서 아라비아 상인과 교역을 통해 당시 유럽에서는 사용되지 않던 고급 수학을 경험하고 이를 이탈리아로 돌아가서 피보나치 수를 비롯한 수학을 잘 정리해서 유럽에 소개했다. 물론 피보나치가 처음 이 수열을 발견한 것은 아니다.</p>
+<p><img src="fig/ai-fibo-rabbit.png" alt="" width="50%" /></p>
+<h3 id="수치로-이해하는-피보나치-수">2. 수치로 이해하는 피보나치 수</h3>
+<p>토끼가 1월에 한쌍이 있고, 성인 토끼로 자라는데 한달이 필요하고, 한달에 한쌍 토끼를 낳고, 절대로 죽지 않는다고 가정한다. 그렇면 1202년 출간된 피보나치 토끼 퀴즈가 완성된다.</p>
+<table>
+<thead>
+<tr class="header">
+<th align="left">시간</th>
+<th align="left">1월</th>
+<th align="left">2월</th>
+<th align="left">3월</th>
+<th align="left">4월</th>
+<th align="left">5월</th>
+<th align="left">6월</th>
+<th align="left">7월</th>
+<th align="left">8월</th>
+<th align="left">9월</th>
+<th align="left">10월</th>
+<th align="left">11월</th>
+<th align="left">12월</th>
+<th align="left">1월</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">미성년</td>
+<td align="left">1</td>
+<td align="left">0</td>
+<td align="left">1</td>
+<td align="left">1</td>
+<td align="left">2</td>
+<td align="left">3</td>
+<td align="left">5</td>
+<td align="left">8</td>
+<td align="left">13</td>
+<td align="left">21</td>
+<td align="left">34</td>
+<td align="left">55</td>
+<td align="left">89</td>
+</tr>
+<tr class="even">
+<td align="left">성년</td>
+<td align="left">0</td>
+<td align="left">1</td>
+<td align="left">1</td>
+<td align="left">2</td>
+<td align="left">3</td>
+<td align="left">5</td>
+<td align="left">8</td>
+<td align="left">13</td>
+<td align="left">21</td>
+<td align="left">34</td>
+<td align="left">55</td>
+<td align="left">89</td>
+<td align="left">144</td>
+</tr>
+<tr class="odd">
+<td align="left">총합</td>
+<td align="left">1</td>
+<td align="left">1</td>
+<td align="left">2</td>
+<td align="left">3</td>
+<td align="left">5</td>
+<td align="left">8</td>
+<td align="left">13</td>
+<td align="left">21</td>
+<td align="left">34</td>
+<td align="left">55</td>
+<td align="left">89</td>
+<td align="left">144</td>
+<td align="left">233</td>
+</tr>
+</tbody>
+</table>
+<p>마지막, 총합, <span class="math inline">\(1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144, 233, \cdots\)</span> 순열을 피보나치 순열이라고 부른다.</p>
+<h3 id="대수로-이해하는-피보나치-수-wiki-fibo">3. 대수로 이해하는 피보나치 수 <a href="#fn1" class="footnoteRef" id="fnref1"><sup>1</sup></a></h3>
+<p>수치로 표현된 순열을 기호로 표현해 보면 다음과 같다.</p>
+<p><span class="math display">\[F_n = F_{n-1} + F_{n-2}\]</span></p>
+<p>초기값으로 <span class="math inline">\(F_1 = 1,\; F_2 = 1\)</span> 혹은, <span class="math inline">\(F_0 = 0,\; F_1 = 1\)</span> 을 사용한다.</p>
+<h3 id="기하로-이해하는-피보나치-수-wiki-fibo">4. 기하로 이해하는 피보나치 수 <a href="#fn2" class="footnoteRef" id="fnref2"><sup>2</sup></a></h3>
+<p><img src="fig/Fibonacci_tiling_of_the_plane_and_approximation_to_Golden_Ratio.gif" alt="" width="100%" /></p>
+<p>피보나치 수열은 황금비(Golden Ratio)와 관련이 있는데, 인접한 두항의 비 <span class="math inline">\(\frac{F_{n+1}}{F_n}\)</span>는 황금비(<span class="math inline">\(1:1.6180339887\cdots\)</span>)에 수렴한다.</p>
+<p>즉, <span class="math inline">\(\lim_{n\to\infty} = \frac{F_{n+1}}{F_n} = \Phi\)</span>, <span class="math inline">\(0,1,1,2,3,5,8,13,21,34,55,89,144,233\cdots\)</span>.</p>
+<ul>
+<li><span class="math inline">\(\frac{3}{2} = 1.5\)</span></li>
+<li><span class="math inline">\(\frac{5}{3} = 1.6666 66667\)</span></li>
+<li><span class="math inline">\(\frac{8}{5} = 1.6\)</span></li>
+<li><span class="math inline">\(\frac{13}{8} = 1.625\)</span></li>
+<li><span class="math inline">\(\frac{21}{13} = 1.61538 46154...\)</span></li>
+<li><span class="math inline">\(\frac{34}{21} = 1.61904 719\)</span></li>
+<li><span class="math inline">\(\frac{55}{34} = 1.61764 70588...\)</span></li>
+<li><span class="math inline">\(\frac{89}{55} = 1.61818 18182...\)</span></li>
+<li><span class="math inline">\(\frac{144}{89} =1.61797 75281...\)</span></li>
+<li><span class="math inline">\(\frac{233}{144} = 1.61805 55556...\)</span></li>
+</ul>
+<h4 id="황금비golden-ratio">4.1. 황금비(Golden Ratio)</h4>
+<p><img src="fig/ai-lab-fibo-golden-ratio.png" alt="황금비" width="57%" /></p>
+<p>황금비는 <span class="math inline">\(\frac {x}{y} = \frac{x+y}{x}\)</span>를 만족한다. 황금비를 <span class="math inline">\(\Phi=\frac{x}{y}\)</span>로 두고 수식을 정리하면 다음과 같다.</p>
+<p><span class="math display">\[\Phi = 1 + \frac{1}{\Phi}\]</span></p>
+<p>수식을 풀면</p>
+<p><span class="math display">\[\Phi = \frac{\sqrt{5}+1}{2} \approx 1.618 \]</span></p>
+<h3 id="프로그래밍-코드-rosettacode-fibo">5. 프로그래밍 코드 <a href="#fn3" class="footnoteRef" id="fnref3"><sup>3</sup></a></h3>
+<p>피보나치 순열을 코드로 작성하는 방법은 다음과 같다.</p>
+<ul>
+<li>수치해석(Analytic)</li>
+<li>반복(Iterative)</li>
+<li>재귀(Recursive)</li>
+<li>메모이제이션 재귀(Recursive with Memoization)</li>
+<li><code>yield</code>를 사용한 Generative</li>
+</ul>
+<div class="sourceCode"><pre class="sourceCode python"><code class="sourceCode python"><span class="kw">def</span> fib(n):
+    <span class="cf">if</span> n <span class="op">&lt;</span> <span class="dv">2</span>:
+        <span class="cf">return</span> n
+    <span class="cf">else</span>:
+        <span class="cf">return</span> fib(n<span class="dv">-1</span>) <span class="op">+</span> fib(n<span class="dv">-2</span>)</code></pre></div>
+<pre class="output"><code>1 1 2 3 5 8 13 21 34 55 89 144 233 377 610 987 1597 2584 4181 6765 10946 17711 28657 46368 75025 121393 196418 317811 514229 832040</code></pre>
+<p>물론 R로도 가능하다. 재귀 방식으로 피보나치 순열을 뽑아내는 R 코드가 다음에 나타나 있다.</p>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="co"># 재귀방식 구현</span>
+recfibo &lt;-<span class="st"> </span>function(n) {
+  if ( n &lt;<span class="st"> </span><span class="dv">2</span> ) n
+  else <span class="kw">Recall</span>(n<span class="dv">-1</span>) +<span class="st"> </span><span class="kw">Recall</span>(n<span class="dv">-2</span>)
+}
+ 
+<span class="co"># 첫 21개 숫자 출력</span>
+<span class="kw">print.table</span>(<span class="kw">lapply</span>(<span class="dv">0</span>:<span class="dv">20</span>, recfibo))</code></pre></div>
+<pre class="output"><code> [1] 0    1    1    2    3    5    8    13   21   34   55   89   144  233  377  610  987  1597 2584 4181 6765</code></pre>
+<h3 id="응용분야">6. 응용분야</h3>
+<ul>
+<li><a href="https://youtu.be/GGUOtwDhyzc?list=PL2364C9DD05C26465">유튜브: 1. Vitruvian Man | The Beauty of Diagrams</a></li>
+<li><a href="http://www.maths.surrey.ac.uk/hosted-sites/R.Knott/Fibonacci/fibnat.html">Fibonacci Numbers and Nature</a></li>
+<li><a href="http://jwilson.coe.uga.edu/emat6680/parveen/fib_nature.htm">Fibonacci in Nature by Nikhat Parveen, UGA</a></li>
+</ul>
+<div class="footnotes">
+<hr />
+<ol>
+<li id="fn1"><p><a href="https://en.wikipedia.org/wiki/Fibonacci_number">Fibonacci number</a><a href="#fnref1">↩</a></p></li>
+<li id="fn2"><p><a href="https://en.wikipedia.org/wiki/Fibonacci_number">Fibonacci number</a><a href="#fnref2">↩</a></p></li>
+<li id="fn3"><p><a href="https://www.rosettacode.org/wiki/Fibonacci_sequence">Fibonacci sequence</a><a href="#fnref3">↩</a></p></li>
+</ol>
+</div>
+        </div>
+      </div>
+      </article>
+      <div class="footer">
+        <a class="label swc-blue-bg" href="http://software-carpentry.org">Software Carpentry</a>
+        <a class="label swc-blue-bg" href="https://github.com/swcarpentry/lesson-template">Source</a>
+        <a class="label swc-blue-bg" href="mailto:admin@software-carpentry.org">Contact</a>
+        <a class="label swc-blue-bg" href="LICENSE.html">License</a>
+      </div>
+    </div>
+    <!-- Javascript placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src="css/bootstrap/bootstrap-js/bootstrap.js"></script>
+    <script src='https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML'></script>
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+    
+      ga('create', 'UA-37305346-2', 'auto');
+      ga('send', 'pageview');
+    
+    </script>
+  </body>
+</html>

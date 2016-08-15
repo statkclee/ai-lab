@@ -22,6 +22,9 @@ title: 인공지능 연구회
     * [파이썬기반 기계학습 툴체인(toolchain)](http://statkclee.github.io/ml/00-toolchain.html)
     * [사업과 기계학습(통계)](http://statkclee.github.io/ml/01-problem.html)
 * '16.08월: 데이터 과학
+    * [피보나치 수](ai-fibonacci.html)
+    * [기초통계](https://statkclee.github.io/statistics/)
+    * [선거와 투표](http://politics.xwmooc.org/)
 * '16.09월: 병렬, 분산 컴퓨팅
 * '16.10월: 통계학/예측모형
     * [모형이란 무엇인가?](http://statkclee.github.io/ml/ml-modeling-basic.html)
