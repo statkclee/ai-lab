@@ -21,7 +21,7 @@ title: 인공지능 연구회
     * [3가지 기계학습 원리](http://statkclee.github.io/ml/ml-three-principles.html)
     * [파이썬기반 기계학습 툴체인(toolchain)](http://statkclee.github.io/ml/00-toolchain.html)
     * [사업과 기계학습(통계)](http://statkclee.github.io/ml/01-problem.html)
-* '16.08월: 데이터 과학
+* '16.08월: [데이터 과학 - 스타트업](ai-startup.html)
     * [피보나치 수](ai-fibonacci.html)
     * [기초통계](https://statkclee.github.io/statistics/)
     * [선거와 투표](http://politics.xwmooc.org/)
