@@ -30,9 +30,10 @@ title: 인공지능 연구회
     * [전통적인 모형 개발](http://statkclee.github.io/ml/ml-modeling-titanic.html)    
     * [모형 평가 (독일 신용평가)](http://statkclee.github.io/ml/ml-credit-scoring.html)
     * [렌딩클럽 신용평점모형](http://statkclee.github.io/ml/ml-credit-scoring-overview.html)
+* '16.10월: 병렬, 분산 컴퓨팅
     * [병렬 예측모형](http://statkclee.github.io/ml/ml-credit-greene.html)
     * [분산 예측모형](http://statkclee.github.io/deep-learning/h2o-deep-learning-landingclub.html)
-* '16.10월: 병렬, 분산 컴퓨팅
+    * [함수형 프로그래밍]()
 * '16.11월: 기계학습/딥러닝
 * '16.12월: 라즈베리 파이 인공지능
 
