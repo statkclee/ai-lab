@@ -30,12 +30,22 @@ title: 인공지능 연구회
     * [전통적인 모형 개발](http://statkclee.github.io/ml/ml-modeling-titanic.html)    
     * [모형 평가 (독일 신용평가)](http://statkclee.github.io/ml/ml-credit-scoring.html)
     * [렌딩클럽 신용평점모형](http://statkclee.github.io/ml/ml-credit-scoring-overview.html)
-* '16.10월: 병렬, 분산 컴퓨팅
+* '16.10월: 인공지능 API 프로그래밍
+    * API 프로그래밍 
+        * [R 구글 애널리틱스(GA)](http://statkclee.github.io/deep-learning/r-ga.html)
+        * [R 구글 url 축약-googleAuthR](http://statkclee.github.io/deep-learning/r-short-url.html)
+    * [IBM 왓슨, TTS](http://statkclee.github.io/deep-learning/r-watson.html)
+    * 마이크로소프트
+        * [마이크로소프트, 얼굴 감정분석](http://statkclee.github.io/deep-learning/ms-oxford-emotion.html)
+        * [마이크로소프트, 텍스트 감성분석](http://statkclee.github.io/deep-learning/ms-oxford-emotion.html)
+    * [구글 클라우드비젼](http://statkclee.github.io/deep-learning/r-google-vision-rooglevision.html)
+        * [구글 클라우드 비젼 API](http://statkclee.github.io/deep-learning/r-google-vision-api.html)
+    * [아마존 알렉사, 라즈베리파이](http://statkclee.github.io/raspberry-pi/rpi-alexa.html)
+* '16.11월: 병렬, 분산 컴퓨팅
     * [병렬 예측모형](http://statkclee.github.io/ml/ml-credit-greene.html)
     * [분산 예측모형](http://statkclee.github.io/deep-learning/h2o-deep-learning-landingclub.html)
     * [함수형 프로그래밍]()
-* '16.11월: 기계학습/딥러닝
-* '16.12월: 라즈베리 파이 인공지능
+* '16.12월: 기계학습/딥러닝
 
 
 ### [xwMOOC 오픈 교재](https://statkclee.github.io/xwMOOC/)
