@@ -46,7 +46,7 @@ title: 인공지능 연구회
     * [분산 예측모형](http://statkclee.github.io/deep-learning/h2o-deep-learning-landingclub.html)
     * [함수형 프로그래밍]()
 * '16.12월: 기계학습/딥러닝
-* [머신러닝과 4차 산업혁명](slideshow/ml-mota.html)
+* [머신러닝과 4차 산업혁명](slideshow/mota-reveal-js.html)
 
 
 ### [xwMOOC 오픈 교재](https://statkclee.github.io/xwMOOC/)
