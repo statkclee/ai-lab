@@ -35,6 +35,10 @@ output:
 
 <img src="../fig/ai-lab-4th-paradigm.png" width="87%" />
 
+## xwMOOC 오픈 컴퓨터
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/PcXLYOMnhd0" frameborder="0" allowfullscreen></iframe>
+
 ## 자동차 클러스터 사례
 
 <img src="../fig/ai-digital-cluster.png" width="87%" />
@@ -116,6 +120,17 @@ output:
     - 생활안전
 
 [정보 민주화 - 데이터 과학자가 바라본 20대 총선](http://statkclee.github.io/politics/)
+
+## 사람이 이해하는 감정
+
+<img src="../fig/ai-kbu-pics.png" width="77%" />
+
+## 인공지능이 바라본 감정
+
+<img src="../fig/ai-kbu-sentiment.png" width="77%" />
+
+[A computer watched the debates. It thought Clinton was happy and Trump was angry and quite sad](http://qz.com/810092/a-computer-watched-the-debates-and-thought-clinton-happy-trump-angry-sad/)
+
 
 ## 인공지능 개발 스펙트럼
 
