@@ -42,12 +42,12 @@ title: 인공지능 연구회
         * [구글 클라우드 비젼 API](http://statkclee.github.io/deep-learning/r-google-vision-api.html)
     * [아마존 알렉사, 라즈베리파이](http://statkclee.github.io/raspberry-pi/rpi-alexa.html)
 * '16.11월: 인공지능 API 코딩 실습
-        * [MS 인지서비스 가입](https://www.microsoft.com/cognitive-services/en-us/apis)
-            * [웹서비스 둘러보기](https://www.microsoft.com/cognitive-services/en-us/face-api)
-            * 인공지능 API 토큰
-        * R에서 이미지 인식
-        * 이미지 속 얼굴 위치 인식: 얼굴에 사각형 위치 시키기
-        * [얼굴 감정분석](http://statkclee.github.io/deep-learning/ms-oxford-emotion.html)
+    * [MS 인지서비스 가입](https://www.microsoft.com/cognitive-services/en-us/apis)
+        * [웹서비스 둘러보기](https://www.microsoft.com/cognitive-services/en-us/face-api)
+        * 인공지능 API 토큰
+    * R에서 이미지 인식
+    * 이미지 속 얼굴 위치 인식: 얼굴에 사각형 위치 시키기
+    * [얼굴 감정분석](http://statkclee.github.io/deep-learning/ms-oxford-emotion.html)
 * '16.12월: 기계학습/딥러닝
     * [병렬 예측모형](http://statkclee.github.io/ml/ml-credit-greene.html)
     * [분산 예측모형](http://statkclee.github.io/deep-learning/h2o-deep-learning-landingclub.html)
