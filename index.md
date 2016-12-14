@@ -49,6 +49,7 @@ title: 인공지능 연구회
     * 이미지 속 얼굴 위치 인식: 얼굴에 사각형 위치 시키기
     * [얼굴 감정분석](http://statkclee.github.io/deep-learning/ms-oxford-emotion.html)
 * '16.12월: 기계학습/딥러닝
+    * [궁극의 알고리즘(Master Algorithm)](master-algorithm.html)
     * [병렬 예측모형](http://statkclee.github.io/ml/ml-credit-greene.html)
     * [분산 예측모형](http://statkclee.github.io/deep-learning/h2o-deep-learning-landingclub.html)
     * [함수형 프로그래밍]()
