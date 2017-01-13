@@ -1,0 +1,175 @@
+---
+title: "4차 산업혁명(인공지능)"
+author: 데이터과학자 이광춘
+date: 2017. 1
+output: 
+  revealjs::revealjs_presentation:
+    css: simple.css
+    center: true
+---
+
+## 글로벌 무역현황
+
+<img src="../fig/ai-trade-stat.png" width="77%" />
+
+[World Trade Organization (2013), UNWTO Annual Report 2013](http://www.wto.org/english/res_e/booksp_e/anrep_e/anrep13_e.pdf) 
+
+
+## 가치(Value) 원천
+
+<img src="../fig/ai-lab-korea-science.png" width="77%" />
+
+- 세계은행(World Bank)과 한국개발연구원(KDI)은 약 2년여 기간의 공동연구를 통해 1960-2005 년간 한국 경제발전 과정에 관한 보고서를 출간 
+- 경제성장이 지속되기 위해서는 생산성 향상이 중요하고, 1960년 이후 한국경제 성공은 광의의 지식축적에 기인한 것으로 1960-2005년 사이 한국의 실질 1인당GDP의 75%가 광의의 **지식축적**에 기인한 것으로 분석
+
+## 사고체계의 진화
+
+<img src="../fig/ai-lab-ct-4th-paradigm.png" width="90%" />
+
+- 수학적 사고(Mathematical Thinking)
+- 통계적 사고(Experimental Thinking) 
+- 컴퓨팅 사고(Computational Thinking)
+
+[Wing, Jeannette M. "Computational thinking." Communications of the ACM 49.3 (2006): 33-35.](http://research-srv.microsoft.com/en-us/um/redmond/events/asiafacsum2012/day1/Jeannette_Wing.pdf)
+
+## 4번째 패러다임
+
+<img src="../fig/ai-lab-4th-paradigm.png" width="87%" />
+
+## xwMOOC 오픈 컴퓨터
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/PcXLYOMnhd0" frameborder="0" allowfullscreen></iframe>
+
+## 자동차 클러스터 사례
+
+<img src="../fig/ai-digital-cluster.png" width="87%" />
+
+## 
+
+> 기계와 더불어 사는 한국인; 기계와의 경쟁...
+> 
+> **xwMOOC**
+
+## 수직적 시장 &rarr; 인공지능 시장
+
+</br>
+
+<img src="../fig/slide-4th-industry-revolution-roadmap.png" width="100%" />
+
+- 수직적(Vertical) 시장 &rarr; 플랫폼(Platform) 시장 &rarr; 인공지능(AI) 마켓으로
+
+## IT기반 기업 vs. AI기반 기업
+
+<img src="../fig/stat-data-science.png" width="87%" />
+
+## AI기반 산업역군
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/t346si4gy_M" frameborder="0" allowfullscreen></iframe>
+
+<img src="../fig/ai-basic-skills.png" width="37%" />
+
+[MATT RICHTEL, "Reading, Writing, Arithmetic, and Lately, Coding"", The New York Time,  MAY 10, 2014](http://www.nytimes.com/2014/05/11/us/reading-writing-arithmetic-and-lately-coding.html)
+
+## 핵심산업 자원
+
+<img src="../fig/korea_raw_material.png" width="77%" />
+
+##
+
+> "The future is here, it's just not evenly distributed yet.“
+> 
+> **William Gibson**
+
+
+## 데이터 과학자와 함께하는 대선
+
+1. [투표의 역사](http://statkclee.github.io/politics/00-vote-history.html) 
+    - [과학기술과 함께 하는 패러다임의 변화](http://statkclee.github.io/politics/01-vote-paradigm.html)
+1. **전통적인 선거** 
+    1. [선거 데이터: 전장(battle field) ...](http://statkclee.github.io/politics/03-vote-data.html)
+        - [제19대 대통령선거 일정](http://statkclee.github.io/politics/pe-schedule.html)
+        - [대한민국 인구 피라미드](http://statkclee.github.io/politics/pe-population-pyramid.html)
+    1. [여론조사: 제20대 국회의원 선거](http://statkclee.github.io/politics/04-vote-survey.html)
+        - [인구통계 분석](http://statkclee.github.io/politics/05-vote-demographic.html)
+        - [여론조사 지지율](http://statkclee.github.io/politics/07-vote-approval-rating.html)
+        - [여론조사 지지율 흐름](http://statkclee.github.io/politics/07-vote-approval-sankeyplot.html)
+    1. [투표율 분석: 제20대 국회의원 선거](http://statkclee.github.io/politics/08-vote-ballots.html)
+        - [사전 투표율](http://statkclee.github.io/politics/09-vote-early.html)
+        - [역대선거 투표율](http://statkclee.github.io/politics/10-vote-history.html)
+
+[정보 민주화 - 데이터 과학자가 바라본 20대 총선](http://statkclee.github.io/politics/)
+
+## 로봇과 함께하는 대선
+
+1. **진화하는 선거**        
+    1. [지리정보 시각화](http://statkclee.github.io/data-science/geo-info.html)
+        - [투표 지리정보 매핑](http://statkclee.github.io/politics/30-vote-geoinfo.html)
+        - [제18대 대통령 선거](http://statkclee.github.io/data-science/geo-18-president.html)
+        - [제20대 총선 선거구](http://statkclee.github.io/politics/06-vote-precinct.html)
+        - [생활안전](http://statkclee.github.io/politics/31-vote-probation-office.html)
+    1. [SNS 디지털 미디어](http://statkclee.github.io/politics/20-vote-digial-media.html)
+        - [페이스북 페이지](http://statkclee.github.io/politics/21-vote-fb.html)
+        - [페이스북 페이지 분석](http://statkclee.github.io/politics/22-vote-fb-page.html)        
+        - [텍스트 데이터 수집 - 트위터](http://statkclee.github.io/ml/ml-text-twitter.html)
+    1. **텍스트 데이터**
+        - [저녁이 있는 삶 – 손학규](http://statkclee.github.io/ml/ml-book.html)
+1. [**기계와 더불어 사는 한국인** - 패러다임 전환](https://statkclee.github.io/xwMOOC/paradigm/)
+    1. [사진속 나이 추정](http://statkclee.github.io/deep-learning/ms-oxford-age.html)
+    1. [얼굴에 나타난 감정분석](http://statkclee.github.io/deep-learning/ms-oxford-emotion.html)
+    1. [동영상 감정분석](http://statkclee.github.io/deep-learning/ms-oxford-video.html)
+        - [KBS (2016-12-07)인공지능으로 분석한 대통령의 마음…슬픔은 어디에?](http://news.kbs.co.kr/news/view.do?ncd=3390429)
+    1. [텍스트 감성분석](http://statkclee.github.io/deep-learning/ms-cognitive-text-sentiment.html)
+    1. [회귀분석 - 부모님 신장과 자식 신장](http://statkclee.github.io/politics/pe-regression.html)
+    1. [회귀분석 - MLB 투수 유전자는 유전이 될까?](http://statkclee.github.io/politics/pe-baseball-era.html)
+    
+
+[정보 민주화 - 데이터 과학자가 바라본 20대 총선](http://statkclee.github.io/politics/)
+
+
+## 사람이 이해하는 감정
+
+<img src="../fig/ai-kbu-pics.png" width="77%" />
+
+## 인공지능이 바라본 감정
+
+<img src="../fig/ai-kbu-sentiment.png" width="77%" />
+
+[A computer watched the debates. It thought Clinton was happy and Trump was angry and quite sad](http://qz.com/810092/a-computer-watched-the-debates-and-thought-clinton-happy-trump-angry-sad/)
+
+
+##
+
+> “AI is a superpower!!!”, 인공지능을 체득하면 슈퍼파워를 손에 쥘 것이다.
+> 
+> **Andrew Ng**
+
+
+## 인공지능 개발 스펙트럼
+
+<img src="../fig/ai-cloud-ml.png" width="77%" />
+
+## 인공지능 개발 스펙트럼 사례
+
+<img src="../fig/ai-product-service-raw-material.png" width="77%" />
+
+- [정보과학교육연합회-R을 이용한 인공지능 튜토리얼](http://statkclee.github.io/deep-learning/ms-oxford-kcode-tutorial.html)
+
+## 인공지능 API
+
+- 구글
+    - 구글 클라우드비젼
+        - 구글 클라우드 비젼 API
+    - R 구글 애널리틱스(GA)
+    - R 구글 url 축약-googleAuthR
+- IBM 왓슨, TTS
+- 마이크로소프트
+    - 마이크로소프트, 얼굴 감정분석
+    - 마이크로소프트, 텍스트 감성분석
+- 아마존 알렉사, 라즈베리파이
+
+[인공지능 API](https://statkclee.github.io/ai-lab/)
+
+## 기계와의 전쟁
+
+#### [디지털 경제와 작업장(Gold Farming)](https://statkclee.github.io/statistics/stat-gold-farming.html)
+#### [작업장 탐지](https://statkclee.github.io/statistics/stat-gold-farming-detection.html)
