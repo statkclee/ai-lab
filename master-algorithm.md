@@ -19,16 +19,9 @@ title: 궁극의 주인이 될 알고리즘(Master Algorithm)
 
 [^master-algorithm-google-talk]: [Pedro Domingos - "The Master Algorithm", Talks at Google](https://www.youtube.com/watch?v=B8J4uefCQMc)
 
-<table>
-	<tr>
-		<td>Ted 강연 (The Quest for the Master Algorithm, Pedro Domingos)</td>
-		<td>마이크로소프트 연구소 (The Master Algorithm)</td>
-	</tr>
-	<tr>
-		<td> <iframe width="320" height="180" src="https://www.youtube.com/embed/qIZ5PXLVZfo" frameborder="0" allowfullscreen></iframe> </td>
-		<td> <iframe width="320" height="180" src="https://www.youtube.com/embed/8Ppqep-KAYI" frameborder="0" allowfullscreen></iframe> </td>
-	</tr>
-</table>
+|Ted 강연 (The Quest for the Master Algorithm, Pedro Domingos)|마이크로소프트 연구소 (The Master Algorithm)|
+|----------------------------------------------|----------------------------------------------|
+|<iframe width="320" height="180" src="https://www.youtube.com/embed/qIZ5PXLVZfo" frameborder="0" allowfullscreen></iframe>|<iframe width="320" height="180" src="https://www.youtube.com/embed/8Ppqep-KAYI" frameborder="0" allowfullscreen></iframe>|
 
 지금 성공적으로 평가받는 기업들은 영화추천, 제품추천, 구인/구직 추천, 음악 추천등 한가지 혹은 몇가지 추천 혹은 예측 작업을 잘하는 알고리즘이다.
 앞으로 사람들은 더욱 많은 알고리즘으로 둘러 싸일 것이고, 종류도 많고 수도 제법되는 추천 알고리즘은 서로 협업하고, 경쟁하며 모형/알고리즘이 지배하는 세상이 도래할 것이다.
@@ -80,7 +73,7 @@ title: 궁극의 주인이 될 알고리즘(Master Algorithm)
 - 알고리즘의 세세한 부분에까지 제어하고 명세하는 것이 갖는 손실을 인정하고 받아들인다.
 - 알고리즘은 되먹임 과정(feedback process)을 통해 변경되고 더 정교화되는 과정을 반복한다.
 
-<img src="fig/master-algorithm-framework.png" alt="알고리즘 틀" width="57%" />
+<img src="fig/master-algorithm-framework.png" alt="알고리즘 틀" width="77%" />
 
 ## 2. 기계학습 다섯 종족 
 
@@ -203,12 +196,12 @@ title: 궁극의 주인이 될 알고리즘(Master Algorithm)
 
 #### 2.4.1. 확률 추론 -- 베이즈 정리
 
-$\Pr(H|e)=\frac{\Pr(e|H)\Pr(H)}{\Pr(e)}\propto\mathcalL(H|e)\Pr(H)$ 
+$\Pr(H|e)=\frac{\Pr(e|H)\Pr(H)}{\Pr(e)}\propto \mathcal L(H|e)\Pr(H)$ 
 
 - 우도(Likelihood, $\Pr(e|H)$) : 가정이 참이라고 가정할 때 증거 데이터의 가능성은 얼마나 되나?
 - 사전 확률(Prior, $\Pr(H)$) : 증거 데이터를 관측하기 전에 가설의 가능성은 얼마나 되나?
 - 사후 확률(Posterior, $\Pr(H|e)$) : 관측 데이터가 주어졌을 때 가설의 가능성은 얼마나 되나?
-- 주변확률(Marginal, ${\Pr(e)=\sum{\Pr(e|H_{i})\Pr(H_{i})}$) : 가능한 모든 가설아래 새로운 증거 데이터의 가능성은 얼마나 되나?
+- 주변확률(Marginal, $\Pr(e)=\sum \Pr(e|H_{i})\Pr(H_{i})$) : 가능한 모든 가설아래 새로운 증거 데이터의 가능성은 얼마나 되나?
 
 #### 2.4.2. 성공사례 -- 전자우편 스팸
 
