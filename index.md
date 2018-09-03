@@ -54,9 +54,9 @@ title: 인공지능 연구회
     * [분산 예측모형](http://statkclee.github.io/deep-learning/h2o-deep-learning-landingclub.html)
     * [함수형 프로그래밍]()
 * 서강대학교(MOTA404) - 인공지능과 머신러닝
+    * [융복합기술사업화특론 - 데이터과학과 머신러닝 자동화(2018)](slideshow/mota-2018-reveal-js.html)
     * [머신러닝과 4차 산업혁명(2016)](slideshow/mota-reveal-js.html)
     * [데이터과학과 머신러닝 입문/응용(2017)](slideshow/mota-2017-reveal-js.html)
-    * [융복합기술사업화특론 - 데이터과학과 머신러닝 입문/응용(2018)](slideshow/mota-2018-reveal-js.html)
 
 
 ### [xwMOOC 오픈 교재](https://statkclee.github.io/xwMOOC/)
