@@ -1,0 +1,60 @@
+---
+layout: page
+title: "인공지능 연구회"
+subtitle: "AI 시대 경쟁"
+author:
+- name: "이광춘"
+  affiliation: "[Tidyverse Korea](https://www.facebook.com/groups/tidyverse/)"
+date: "`r Sys.Date()`"
+tags: ["AI", "인공지능", "경쟁", "하바드", "harvard"]
+output:
+  html_document: 
+    include:
+      after_body: footer.html
+      before_body: header.html
+    toc: yes
+    toc_depth: 2
+    toc_float: true
+    highlight: tango
+    code_folding: hide
+    number_section: true
+    self_contained: true
+bibliography: bibliography_ai.bib
+csl: biomed-central.csl
+urlcolor: blue
+linkcolor: blue
+editor_options: 
+  chunk_output_type: console
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE, message=FALSE, warning=FALSE,
+                      comment="", digits = 3, tidy = FALSE, prompt = FALSE, fig.align = 'center')
+library(tidyverse)
+library(rvest)
+library(lubridate)
+```
+
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/O5242n_W9vA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+# Competing in the age of AI [@iansiti2020competing] {#ai-competition}
+
+# Building Blocks {#builing-blocks}
+
+![](fig/tom-process.png)
+
+![](fig/tom-steps.jpg)
+
+- [How to design a “Target Operating Model” that delivers tangible outcomes](https://www.casseo.com/how-to-design-a-target-operating-model-that-delivers-tangible-outcomes/)
+
+
+![](fig/business-model-vs-om.png)
+
+- [When You Should Design a New Target Operating Model](https://blog.on-the-mark.com/blog/when-to-design-target-operating-model)
+
+![](fig/om-canvas.png)
+
+- [Will This Replace The Business Model Canvas?](https://lionessmagazine.com/will-this-replace-the-business-model-canvas/)
+
+
