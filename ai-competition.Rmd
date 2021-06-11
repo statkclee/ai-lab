@@ -57,4 +57,48 @@ library(lubridate)
 
 - [Will This Replace The Business Model Canvas?](https://lionessmagazine.com/will-this-replace-the-business-model-canvas/)
 
+# 강 AI 와 약 AI {#strong-ai-vs-week-ai}
+
+> - **Strong AI**: "Machine that can think and act in a way that matches or surpasses human intelligence"
+> - **Weak AI**: "Any activity computers are able to perform that humans once performed.
+> 
+> Nils J. Nilsson, 2010; Standford AI 100 report, 2016.
+
+# Ant Financial Story {#ant-financial}
+
+Data, AI, Digital Network를 사용해서 회사의 본질(Nature of Firm)을 바꿈.
+
+![](fig/ant-financial-story.png)
+
+# 사업 모형과 운영 모형 {#bm-vs-om}
+
+
+
+![](fig/bm-vs-om.png)
+
+
+## AI 공장 {#ai-factory}
+
+![](fig/ai-factory.png)
+
+## AI 운영 모형 {#ai-factory-operating-model}
+
+AI 공장(Factory)는 데이터를 끊임없이 입고 받아 이를 AI 알고리즘을 생산하고 현업에서 사용할 수 있는 형태로 가공하여 회사의 운영 핵심(core)으로 자리매김하여 가치를 창출한다. 
+
+![](fig/ai-operating-model.png)
+
+
+## 전통 운영 모형 {#traditional-model}
+
+![](fig/traditional-om.png)
+
+## AI 기업 운영 모형 {#ai-operations-model}
+
+![](fig/ai-om.png)
+
+## 전통 기업 가치 {#traditional-value-of-the-firm}
+
+![](fig/traditional-value-of-firm.png)
+
+
 
