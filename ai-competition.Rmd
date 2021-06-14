@@ -35,8 +35,9 @@ library(rvest)
 library(lubridate)
 ```
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/O5242n_W9vA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/O5242n_W9vA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</iframe>
 
 # Competing in the age of AI [@iansiti2020competing] {#ai-competition}
 
@@ -46,22 +47,21 @@ library(lubridate)
 
 ![](fig/tom-steps.jpg)
 
-- [How to design a “Target Operating Model” that delivers tangible outcomes](https://www.casseo.com/how-to-design-a-target-operating-model-that-delivers-tangible-outcomes/)
-
+-   [How to design a "Target Operating Model" that delivers tangible outcomes](https://www.casseo.com/how-to-design-a-target-operating-model-that-delivers-tangible-outcomes/)
 
 ![](fig/business-model-vs-om.png)
 
-- [When You Should Design a New Target Operating Model](https://blog.on-the-mark.com/blog/when-to-design-target-operating-model)
+-   [When You Should Design a New Target Operating Model](https://blog.on-the-mark.com/blog/when-to-design-target-operating-model)
 
 ![](fig/om-canvas.png)
 
-- [Will This Replace The Business Model Canvas?](https://lionessmagazine.com/will-this-replace-the-business-model-canvas/)
+-   [Will This Replace The Business Model Canvas?](https://lionessmagazine.com/will-this-replace-the-business-model-canvas/)
 
 # 강 AI 와 약 AI {#strong-ai-vs-week-ai}
 
-> - **Strong AI**: "Machine that can think and act in a way that matches or surpasses human intelligence"
-> - **Weak AI**: "Any activity computers are able to perform that humans once performed.
-> 
+> -   **Strong AI**: "Machine that can think and act in a way that matches or surpasses human intelligence"
+> -   **Weak AI**: "Any activity computers are able to perform that humans once performed.
+>
 > Nils J. Nilsson, 2010; Standford AI 100 report, 2016.
 
 # Ant Financial Story {#ant-financial}
@@ -72,10 +72,7 @@ Data, AI, Digital Network를 사용해서 회사의 본질(Nature of Firm)을 �
 
 # 사업 모형과 운영 모형 {#bm-vs-om}
 
-
-
 ![](fig/bm-vs-om.png)
-
 
 ## AI 공장 {#ai-factory}
 
@@ -83,10 +80,9 @@ Data, AI, Digital Network를 사용해서 회사의 본질(Nature of Firm)을 �
 
 ## AI 운영 모형 {#ai-factory-operating-model}
 
-AI 공장(Factory)는 데이터를 끊임없이 입고 받아 이를 AI 알고리즘을 생산하고 현업에서 사용할 수 있는 형태로 가공하여 회사의 운영 핵심(core)으로 자리매김하여 가치를 창출한다. 
+AI 공장(Factory)는 데이터를 끊임없이 입고 받아 이를 AI 알고리즘을 생산하고 현업에서 사용할 수 있는 형태로 가공하여 회사의 운영 핵심(core)으로 자리매김하여 가치를 창출한다.
 
 ![](fig/ai-operating-model.png)
-
 
 ## 전통 운영 모형 {#traditional-model}
 
@@ -100,5 +96,22 @@ AI 공장(Factory)는 데이터를 끊임없이 입고 받아 이를 AI 알고�
 
 ![](fig/traditional-value-of-firm.png)
 
+## AI 가치 {#value-ai}
 
+![](fig/ai-value.png)
 
+## 네트워크 효과 {#network-effect}
+
+![](fig/network-effect.png)
+
+## 네트워크 효과와 디지털 {#network=effect-digital}
+
+![](fig/network-effect-digital.png)
+
+# 충돌 {#digital-collision}
+
+![](fig/tradition-digital.png)
+
+## 사업영역 충돌 {#digital-collision-business}
+
+![](fig/collision-companies.png)
